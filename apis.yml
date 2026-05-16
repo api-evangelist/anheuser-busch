@@ -9,14 +9,71 @@ tags:
   - Manufacturing
 description: 'An American brewing company and subsidiary of AB InBev producing iconic beer brands including Budweiser, Bud Light, Michelob, and Stella Artois. One of the largest beverage producers in North America with operations across brewing, distribution, and marketing.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.anheuser-busch.com/
+  - type: Parent
+    url: https://www.ab-inbev.com/
+  - type: B2BPlatform
+    url: https://www.beeshop.com/
+  - type: GitHub
+    url: https://github.com/anheuser-busch-inbev
+  - type: Features
+    data:
+      - name: Domestic & Imported Beer Brewing
+        description: Brewing and distribution of Anheuser-Busch portfolio brands including Budweiser, Bud Light, Michelob, Busch, Natural Light, and Stella Artois across the United States.
+      - name: Three-Tier Distribution
+        description: Sales to independent wholesalers under the U.S. three-tier distribution system; retail and on-premise outlets are reached via the wholesaler network.
+      - name: BEES B2B Ordering Platform
+        description: AB InBev's BEES B2B mobile / web platform enables independent retailers in many markets to order Anheuser-Busch / AB InBev products directly from local distributors.
+      - name: Anheuser-Busch Cargo Rail
+        description: Anheuser-Busch owns and operates a U.S. private rail subsidiary (Manufacturers Railway Co. and St. Louis Refrigerator Car Co.) used in distribution.
+      - name: Sustainability Reporting
+        description: Public ESG / sustainability reporting on water use, packaging, and carbon emissions.
+  - type: UseCases
+    data:
+      - name: Beer Production & Distribution
+        description: End-to-end brewing, packaging, and distribution of beer and beyond-beer beverages.
+      - name: B2B Retailer Ordering
+        description: Independent retailers ordering inventory through BEES or directly through local distributors.
+      - name: Brand Marketing
+        description: Brand marketing programs including major sports sponsorships and consumer activations.
+      - name: Beyond-Beer Products
+        description: Hard seltzers, RTD cocktails, and non-alcoholic beverages such as Michelob Ultra Zero and other zero-proof products.
+  - type: Authentication
+    data:
+      - name: No Public Developer API
+        description: Anheuser-Busch does not publish a public developer API or developer portal. The BEES B2B ordering platform exposes a partner / retailer mobile and web experience, not a self-service developer surface; wholesaler and retailer integrations run through Anheuser-Busch / AB InBev IT under bilateral agreements.
+  - type: Compliance
+    data:
+      - name: Federal Alcohol Administration Act
+        description: TTB (Alcohol and Tobacco Tax and Trade Bureau) regulation of brewing, labeling, and excise-tax reporting in the United States.
+      - name: State Alcohol Control
+        description: State Alcohol Beverage Control (ABC) agencies regulate the three-tier system and licensing.
+      - name: PCI DSS
+        description: PCI compliance for any payment processing within BEES and other digital surfaces.
+      - name: GDPR
+        description: General Data Protection Regulation compliance for European employee and customer data within the broader AB InBev group.
+      - name: SOX
+        description: Sarbanes-Oxley reporting controls apply via parent company AB InBev's U.S. listings.
+      - name: ESG / TCFD
+        description: AB InBev / Anheuser-Busch report under TCFD and publish sustainability targets covering water, packaging, and emissions.
   - type: Integrations
-    url: https://www.anheuser-busch.com/integrations
+    data:
+      - name: AB InBev
+        description: Anheuser-Busch is the U.S. operating subsidiary of AB InBev, the world's largest brewer.
+      - name: BEES
+        description: AB InBev's BEES B2B e-commerce platform serves independent retailers across multiple markets.
+      - name: Constellation Brands
+        description: U.S. rights to certain Anheuser-Busch InBev import brands (e.g., Corona, Modelo) are held by Constellation Brands, not Anheuser-Busch.
+      - name: Independent Wholesalers
+        description: A network of independent U.S. wholesalers handles last-mile distribution under the three-tier system.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 integrations:
   - name: Magnifying Glass
   - name: Anheuser Busch

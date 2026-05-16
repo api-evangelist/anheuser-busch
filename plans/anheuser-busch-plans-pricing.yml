@@ -1,0 +1,56 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Anheuser-Busch
+providerId: anheuser-busch
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Beverages
+  - Consumer Goods
+description: Anheuser-Busch does not publish a public developer API or developer portal. The BEES B2B ordering platform is offered to independent retailers as a mobile / web product, not as a self-service developer API. Pricing for product flows through standard wholesaler / retailer commercial terms.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.anheuser-busch.com/
+  - https://www.beeshop.com/
+plans:
+  - id: anheuser-busch-bees-retailer
+    name: BEES Retailer Access
+    type: enterprise
+    description: BEES is offered as a free B2B ordering app to onboarded retailers in supported markets; product economics flow through the underlying wholesale invoice. There is no separate API plan.
+    entries:
+      - label: Retailer access
+        name: retailer_access
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: free to onboarded retailers
+        userMultiplied: false
+    elements:
+      - name: BEES B2B ordering app
+      - name: No standalone developer plan
+  - id: anheuser-busch-wholesaler-integration
+    name: Wholesaler / Partner Integration
+    type: enterprise
+    description: Independent wholesalers and large national accounts integrate with Anheuser-Busch / AB InBev under bilateral agreements; no public API plan exists.
+    entries:
+      - label: Wholesaler / partner contract
+        name: wholesaler_contract
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: US
+        unit: 1
+        price: governed by commercial wholesaler / national-account agreement
+        userMultiplied: false
+    elements:
+      - name: Bilateral wholesaler integrations
+      - name: National-account integrations
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

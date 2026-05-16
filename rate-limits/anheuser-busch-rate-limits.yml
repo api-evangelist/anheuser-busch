@@ -1,0 +1,31 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Anheuser-Busch
+providerId: anheuser-busch
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Beverages
+  - Rate Limiting
+description: Anheuser-Busch does not publish a public developer API. The BEES B2B platform and wholesaler / national-account integrations apply internal throttling and SLAs that are not publicly disclosed.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.anheuser-busch.com/
+  - https://www.beeshop.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: BEES app throttling
+    description: BEES enforces internal anti-abuse and ordering-frequency rules, not exposed as a public per-call rate limit.
+  - name: Wholesaler / partner SLAs
+    description: Bilateral wholesaler and national-account integrations have SLAs negotiated in the underlying contract.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
