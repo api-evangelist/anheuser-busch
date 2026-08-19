@@ -22,7 +22,7 @@ tags:
 description: 'An American brewing company and subsidiary of AB InBev producing iconic beer brands including Budweiser, Bud Light, Michelob, and Stella Artois. One of the largest beverage producers in North America with operations across brewing, distribution, and marketing.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: VulnerabilityDisclosure
