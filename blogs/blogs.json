@@ -1,0 +1,21 @@
+{
+  "repo": "anheuser-busch",
+  "feeds": [
+    {
+      "source": "https://www.anheuser-busch.com/newsroom",
+      "feed_url": "https://www.anheuser-busch.com/newsroom",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.anheuser-busch.com/rss.xml",
+      "feed_url": "https://www.anheuser-busch.com/rss.xml",
+      "title": "",
+      "saved": 2,
+      "method": "feed"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-10-10T13:15:00Z"
+}
