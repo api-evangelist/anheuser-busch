@@ -1,0 +1,7 @@
+---
+title: "ANHEUSER-BUSCH CELEBRATES AMERICA'S 250th BIRTHDAY WITH PATRIOTIC SUMMER OF BEER, PARTNERSHIPS & EVENTS"
+url: "https://www.anheuser-busch.com/newsroom/Anheuser-Busch-Celebrates-Americas-250th"
+date: "2026-06-05"
+feed_url: "https://www.anheuser-busch.com/rss.xml"
+---
+LEADING AMERICAN MANUFACTURER WILL BE THE OFFICIAL BEER SPONSOR AND AN OFFICIAL CANNED COCKTAIL SPONSOR OF AMERICA250
