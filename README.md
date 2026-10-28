@@ -1,4 +1,4 @@
-# Anheuser-Busch (anheuser-busch)
+# Anheuser-Busch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,77 +66,97 @@
 
 An American brewing company and subsidiary of AB InBev producing iconic beer brands including Budweiser, Bud Light, Michelob, and Stella Artois. One of the largest beverage producers in North America with operations across brewing, distribution, and marketing.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/apis.yml)
+**Areas:** Beverages · Consumer Goods · Manufacturing · Food and Beverage · Consumer Packaged Goods
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=anheuser-busch-api-evangelist&utm_content=repo)
+## Anheuser-Busch on APIs.io
 
-## Tags:
+Everything profiled for Anheuser-Busch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/anheuser-busch/](https://apis.io/providers/anheuser-busch/)** — or go straight to one of the APIs or properties below.
 
- - Beverages, Consumer Goods, Manufacturing
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Security (2)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-Anheuser-Busch does not publish a public developer API or developer portal. The BEES B2B ordering platform exposes a partner / retailer mobile and web experience, not a self-service developer surface; wholesaler and retailer integrations run through Anheuser-Busch / AB InBev IT under bilateral agreements.
+- [Anheuser Busch Domain Security](https://apis.io/security/anheuser-busch/anheuser-busch-domain-security/)
+- [Anheuser Busch Vulnerability Disclosure](https://apis.io/security/anheuser-busch/anheuser-busch-vulnerability-disclosure/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Anheuser Busch Plans Pricing](https://apis.io/plans/anheuser-busch/anheuser-busch-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Anheuser Busch Rate Limits](https://apis.io/rate-limits/anheuser-busch/anheuser-busch-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Anheuser Busch Finops](https://apis.io/finops/anheuser-busch/anheuser-busch-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.anheuser-busch.com/)
-- [Parent](https://www.ab-inbev.com/)
-- [B2BPlatform](https://www.beeshop.com/)
-- [GitHub](https://github.com/anheuser-busch-inbev)
+- [Blog](https://www.anheuser-busch.com/newsroom)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Domestic & Imported Beer Brewing | Brewing and distribution of Anheuser-Busch portfolio brands across the United States. |
-| Three-Tier Distribution | Sales to independent wholesalers under the U.S. three-tier distribution system. |
-| BEES B2B Ordering Platform | AB InBev's BEES B2B mobile / web platform enables independent retailers to order Anheuser-Busch / AB InBev products. |
-| Anheuser-Busch Cargo Rail | Anheuser-Busch owns and operates a U.S. private rail subsidiary used in distribution. |
-| Sustainability Reporting | Public ESG / sustainability reporting on water use, packaging, and carbon emissions. |
+**Kin Score 12.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 13.2 |
 
-| Name | Description |
-|------|-------------|
-| Beer Production & Distribution | End-to-end brewing, packaging, and distribution of beer and beyond-beer beverages. |
-| B2B Retailer Ordering | Independent retailers ordering inventory through BEES or directly through local distributors. |
-| Brand Marketing | Brand marketing programs including major sports sponsorships and consumer activations. |
-| Beyond-Beer Products | Hard seltzers, RTD cocktails, and non-alcoholic beverages. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public Developer API | Anheuser-Busch does not publish a public developer API or developer portal. |
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/anheuser-busch/](https://apis.io/providers/anheuser-busch/).
 
-| Name | Description |
-|------|-------------|
-| Federal Alcohol Administration Act | TTB regulation of brewing, labeling, and excise-tax reporting in the United States. |
-| State Alcohol Control | State Alcohol Beverage Control (ABC) agencies regulate the three-tier system and licensing. |
-| PCI DSS | PCI compliance for any payment processing within BEES and other digital surfaces. |
-| GDPR | General Data Protection Regulation compliance for European employee and customer data within the broader AB InBev group. |
-| SOX | Sarbanes-Oxley reporting controls apply via parent company AB InBev's U.S. listings. |
-| ESG / TCFD | AB InBev / Anheuser-Busch report under TCFD and publish sustainability targets. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| AB InBev | Anheuser-Busch is the U.S. operating subsidiary of AB InBev, the world's largest brewer. |
-| BEES | AB InBev's BEES B2B e-commerce platform serves independent retailers across multiple markets. |
-| Constellation Brands | U.S. rights to certain AB InBev import brands (e.g., Corona, Modelo) are held by Constellation Brands. |
-| Independent Wholesalers | A network of independent U.S. wholesalers handles last-mile distribution under the three-tier system. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Anheuser-Busch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/anheuser-busch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
